@@ -1,12 +1,12 @@
 public class BonusMilesService {
-    public int calculate(int bilet) {
+    public int calculate(int ticket) {
 
         //int price = 10_000;
         //int miles = service.calculate(price);
-        //int bilet = 600; //Стоимость билета.
-        int raschet = 20; // Одна миля, двадцать рублей.
+        //int ticket = 600; //Стоимость билета.
+        int calculations = 20; // Одна миля, двадцать рублей.
 
-        int itog = bilet / raschet;
+        int itog = ticket / calculations;
         return itog;
 
 
