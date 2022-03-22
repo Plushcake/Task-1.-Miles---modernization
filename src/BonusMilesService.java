@@ -6,9 +6,8 @@ public class BonusMilesService {
         //int ticket = 600; //Стоимость билета.
         int calculations = 20; // Одна миля, двадцать рублей.
 
-        int itog = ticket / calculations;
-        return itog;
-
+        int total = ticket / calculations;
+        return total;
 
     }
 }
